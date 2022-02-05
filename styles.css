@@ -7,47 +7,58 @@
 body {
     background: url(photos/background.jpg)
 }
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-main {
-   background-color: pink;
-    padding: 30px 3px;
+header.container{
+    background-color: pink;
+    font-size: 22px;
+    margin: 25px;
 }
 
-h1,
+h1{
+    background-color: rgb(255, 0, 85);
+    margin: 25px;
+    display: inline-block;
+    font-size: 29px;
+}
+
+main.container{
+    background-color: pink;
+    padding: 10px;
+}
+
+
 h2 {
-    margin: 20px 0;
+    margin: 9px;
     font-family: sans-serif;
+    font-size: 25px;
 }
 
-p{ 
+p { 
     line-height: 140%;
-    margin: 20px 0;
+    margin: 20px 15px;
 }
 
 img {
     float: left
 }
 
-header {
-    float: right;
-    padding: 30px 55px;
-}
-
 a {
 text-decoration: none;
 color: red;
-padding: 8px 15px;
-font-size: 20px;
+margin: 10px;
 text-transform: uppercase ;
+display: inline-block;
 }
 
 article {
     float: left;
-    max-width: 800px;
+    max-width: 700px;
+    padding: 10px;
 }
 
 Main::after {
@@ -59,4 +70,5 @@ Main::after {
 footer{
     text-align: center;
     background-color: gray;
+    font-size: 25px;
 }
