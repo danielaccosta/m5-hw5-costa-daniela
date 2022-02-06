@@ -13,21 +13,27 @@ body {
     margin: 0 auto;
 }
 
-header.container{
-    background-color: pink;
+header{
+    background-color: white;
     font-size: 22px;
-    margin: 25px;
+    /* margin: 25px; */
+    border-bottom: 1px black solid;
 }
 
 h1{
     background-color: rgb(255, 0, 85);
-    margin: 25px;
+    margin: 15px;
     display: inline-block;
-    font-size: 29px;
+    font-size: 25px;
+}
+
+nav{
+    display: inline-block;
+    width: 70%;
+    text-align: right;
 }
 
 main.container{
-    background-color: pink;
     padding: 10px;
 }
 
@@ -36,6 +42,7 @@ h2 {
     margin: 9px;
     font-family: sans-serif;
     font-size: 25px;
+    border-bottom: 1px black solid;
 }
 
 p { 
@@ -44,7 +51,7 @@ p {
 }
 
 img {
-    float: left
+    float: left;
 }
 
 a {
@@ -55,10 +62,22 @@ text-transform: uppercase ;
 display: inline-block;
 }
 
-article {
+#About {
+    background-color: white;
     float: left;
     max-width: 700px;
     padding: 10px;
+    margin-right: 20px;
+}
+
+article img {
+    margin-right: 10px;
+}
+
+aside{
+    background-color: white;
+    margin-right: 10px;
+    float: left;
 }
 
 Main::after {
@@ -71,4 +90,5 @@ footer{
     text-align: center;
     background-color: gray;
     font-size: 25px;
-}
+    margin: 20px;
+}    
